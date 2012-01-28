@@ -1,0 +1,53 @@
+
+
+
+
+
+
+ My_favorites_¼ | Sign_in
+        pebl-project                          [q                             ]
+ [Logo] pebl:_Python_Environment_For_Bayesian [Search projects]
+        Learning
+Project_Home Downloads Wiki Issues Source
+                        Summary     Updates     People
+                                      [http://abhikshah.googlepages.com/pebl-
+                                      logo.png]
+                                      Update 11/15/2011
+                                      Pebl source code and issues are now
+                                      hosted at http://github.com/abhik/pebl.
+                                      This site is only for historical
+                                      purposes.
+                                      =========================================
+                                      Pebl is a python library and command line
+Project Information                   application for learning the structure of
+    * Activity   [http://             a Bayesian network given prior knowledge
+      www.gstatic.com/codesite/ph/    and observations. Pebl includes the
+      images/cleardot.gif] Medium     following features:
+    * Project_feeds                       * Can learn with observational and
+    * Code license                          interventional data
+    * MIT_License                         * Handles missing values and hidden
+    *  Labels                               variables using exact and heuristic
+      python, bayesiannetwork,              methods
+      dataanalysis, machinelearning,      * Provides several learning
+      bioinformatics, systemsbiology        algorithms; makes creating new ones
+Members                                     simple
+    * abhiks...@gmail.com                 * Has facilities for transparent
+Featured                                    parallel execution using several
+Downloads                                   cluster/grid resources
+    *  pebl-1.0.2.tar.gz                  * Calculates edge marginals and
+    * Show_all_»                            consensus networks
+Links                                     * Presents results in a variety of
+    * Groups                                formats
+    * Pebl_mailing_list               Pebl_Documentation includes installation
+                                      instructions, tutorial and API reference.
+                                      Pebl has been developed at the Systems
+                                      Biology Lab at the University of Michigan
+                                      and is available with a permissive_MIT-
+                                      style_license.
+                                      Update 3/6/2009
+                                      Pebl is now published in the Journal of
+                                      Machine Learning Research. Please cite
+                                      the paper if you use Pebl for your work.
+                                      Abstract_and_PDF
+©2011 Google - Terms - Privacy - Project_Hosting_Help
+Powered by Google_Project_Hosting

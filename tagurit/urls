@@ -1,0 +1,32 @@
+# repos
+git://github.com/joyent/node.git
+git://github.com/mitsuhiko/werkzeug.git
+git://github.com/mitsuhiko/flask.git
+git://github.com/sympy/sympy.git
+git://github.com/scipy/scipy.git
+git://github.com/clojure/clojure.git
+git://github.com/wojdyr/fityk.git
+git://github.com/mongodb/mongo.git
+git://github.com/lightspark/lightspark.git
+git://github.com/tatsuhiro-t/aria2.git
+git://www.ginac.de/ginac.git
+git://vtk.org/VTK.git
+git://paraview.org/ParaView.git
+git://www.swi-prolog.org/home/pl/git/pl.git
+git://gitorious.org/qbittorrent/qbittorrent.git
+git://github.com/nltk/nltk.git
+git://github.com/facebook/tornado.git
+# aur
+git://github.com/ingenuitas/SimpleCV.git
+git://github.com/Theano/Theano.git
+git://github.com/pybrain/pybrain.git
+git://github.com/luispedro/milk.git
+
+#~svn
+http://root.cern.ch/svn/root/tags/
+svn://scm.gforge.inria.fr/svn/coq/tags
+
+#~hg
+https://bitbucket.org/bobf/bpython/
+https://code.google.com/p/spyderlib/
+https://bitbucket.org/agr/rope

@@ -1,0 +1,105 @@
+
+
+
+
+****** Texmaker ******
+Free cross-platform LaTeX editor since 2003 - Homesite of the authentic
+Texmaker
+    *  
+[Math]
+***** Summary *****
+Texmaker is a free, modern and cross-platform LaTeX editor for linux, macosx
+and windows systems that integrates many tools needed to develop documents with
+LaTeX, in just one application.
+Texmaker includes unicode support, spell checking, auto-completion, code
+folding and a built-in pdf viewer with synctex support and continuous view
+mode.
+Texmaker is easy to use and to configure.
+Texmaker is released under the GPL license .
+                               [texmakertop.png]
+    (the structure, the document and the embedded pdf viewer side by side)
+                               [sidebyside.png]
+                         (two documents side by side)
+Texmaker demo on YouTube :
+    * Interface_and_pdf_synchronization
+    * Easy_"drag_and_drop"_between_2_documents
+    * The_"tabular"_wizard
+***** Features *****
+ Unicode editor
+Texmaker is fully unicode and supports a large variety of encodings.
+[pics/unicode_s.png]
+  Spell checker
+Texmaker includes spell checking while typing.
+
+[pics/spell_s.png]
+ Code folding
+All \part, \chapter, \section,.., \begin{foo} \end{foo} blocks can be
+collapsed.
+[pics/folding_s.png]
+  Code completion
+The main LaTeX commands can be quickly inserted while typing.
+[pics/completion_s.png]
+ Fast navigation
+Texmaker includes a "structure view" which is automatically updated while
+typing.
+[pics/structure_s.png]
+  "Master" mode
+Texmaker allows you to work easily onto documents separated in several files
+with the "master mode".
+[pics/master_s.png]
+ Integrated Pdf viewer
+Texmaker includes a built-in pdf viewer with continuous scrolling and synctex
+support.
+[pics/pdfsync_s.png]
+  Easy compilation
+"One-click" compilation with the predefined "Quick build" commands.
+[pics/quickbuild_s.png]
+ Mathematical symbols
+370 mathematical symbols can be inserted in just one click.
+[pics/math_s.png]
+  Wizards
+Texmaker includes wizards to generate the most standard LateX code ('Quick
+document', 'Quick letter', tabular, tabbing and array environments.
+[pics/wizard_s.png]
+ LaTeX documentation
+An extensive LaTeX documentation is furnished with Texmaker.
+[pics/latexdoc_s.png]
+  Error Handling
+Texmaker automatically locates errors and warnings detected in the log file
+after a compilation and you can reach the corresponding lines in the document
+in one-click.
+[pics/log_s.png]
+ Rectangular block selection
+Easy rectangular selection with the mouse+Alt key. Users can easily cut/copy/
+paste columns of a table.
+[pics/block_s.png]
+  Find in folders
+With Texmaker you can search for text in all the latex documents included in a
+folder (and the subfolders). If you click on a line, Texmaker will open the
+corresponding document at the right line.
+[pics/findfolder_s.png]
+See the user_manual for other features.
+
+[texmaker128.png]
+    * ***** Latest version *****
+          o Version_3.2.2 : Jan 12 2012
+    * ***** Contact *****
+          o Click here to contact the author
+          o Issue_tracker
+    * ***** Navigation *****
+          o Home
+          o Screenshots
+          o Download
+          o Documentation
+          o ChangeLog
+          o French
+    * [qt_ambassador_logo.png]
+    * Texmaker : original LaTeX editor since 2003 by the creator of Kile
+    * Copyright 2003/2012 Pascal Brachet - France with the contribution of
+      J.Amblard for the LaTeX to html conversion tool.
+    * This program is licensed to you under the terms of the GNU General Public
+      License Version 2 as published by the Free Software Foundation.
+    * Note : This program is the "authentic" Texmaker editor and there is
+      strictly no relationship between this program developed since 2003 and
+      another latex editor which uses intentionally almost the same name to
+      trick users.

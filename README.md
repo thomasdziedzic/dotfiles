@@ -1,6 +1,6 @@
 About
 =====
-This directory contains all my dotfiles organized according to the deploydots file structure.
+This directory contains my dotfiles organized according to the deploydots file structure.
 
 Installing
 ==========

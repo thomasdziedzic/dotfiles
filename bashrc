@@ -44,3 +44,8 @@ chop() {
   tagurit
   urlwatch
 }
+
+flushswap() {
+  sudo swapoff -a
+  sudo swapon -a
+}

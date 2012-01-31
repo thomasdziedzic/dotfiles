@@ -1248,6 +1248,7 @@ git://github.com/facebook/tornado.git:
 - v2.0.0
 - v2.1.0
 - v2.1.1
+- v2.2.0
 git://github.com/ingenuitas/SimpleCV.git:
 - '0.9'
 - '1.0'

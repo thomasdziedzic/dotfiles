@@ -17,11 +17,13 @@ Bundle 'thinca/vim-quickrun'
 Bundle 'xolox/vim-session'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-rails'
+Bundle 'scrooloose/nerdcommenter'
 " vim-scripts repos
 Bundle 'Color-Sampler-Pack'
 Bundle 'LanguageTool'
 Bundle 'ScrollColors'
 Bundle 'CCTree'
+Bundle 'guicolorscheme.vim'
 " non github repos
 
 " turn line numbering on
@@ -31,7 +33,8 @@ set number
 syntax on
 
 " set to molokai cause it's the best
-colorscheme molokai
+"colorscheme molokai
+colorscheme lettuce
 
 " turn on filetype detection, filetype plugins, and autoindent
 filetype plugin indent on

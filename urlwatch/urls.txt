@@ -1,10 +1,7 @@
 # repos
 http://pauillac.inria.fr/~ddr/camlp5/
-http://gummi.midnightcoding.org/?page_id=6
 http://nut.sourceforge.net/
-http://pypi.python.org/pypi/pyflakes
 http://boxen.math.washington.edu/sage/src/announce/index.html
-http://www.xm1math.net/texmaker/index.html
 http://xylib.sourceforge.net/
 http://sourceforge.net/projects/cgns/files/
 

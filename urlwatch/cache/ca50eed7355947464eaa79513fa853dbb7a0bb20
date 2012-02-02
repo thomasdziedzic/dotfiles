@@ -23,12 +23,12 @@
           o List_packages
           o RSS_(latest_40_updates)
           o RSS_(newest_40_packages)
-          o Python_3_packages
-          o Tutorial
-          o Get_help
-          o Bug_reports
-          o Comments
-          o Developers
+          o Python_3_Packages
+          o PyPI_Tutorial
+          o PyPI_Support
+          o PyPI_Bug_Reports
+          o PyPI_Discussion
+          o PyPI_Developer_Info
     * About
     * News
     * Documentation

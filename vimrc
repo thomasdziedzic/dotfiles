@@ -26,6 +26,9 @@ Bundle 'CCTree'
 Bundle 'guicolorscheme.vim'
 " non github repos
 
+" languagetool jar needs to be set
+let g:languagetool_jar = '/usr/share/languagetool/LanguageTool.jar'
+
 " turn line numbering on
 set number
 

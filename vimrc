@@ -18,6 +18,7 @@ Bundle 'xolox/vim-session'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-rails'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'trapd00r/neverland-vim-theme'
 " vim-scripts repos
 Bundle 'Color-Sampler-Pack'
 Bundle 'LanguageTool'

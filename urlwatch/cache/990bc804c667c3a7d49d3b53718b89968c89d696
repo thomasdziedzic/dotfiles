@@ -22,7 +22,7 @@ Project_Home Downloads Wiki Issues Source
 Project Information                   application for learning the structure of
     * Activity   [http://             a Bayesian network given prior knowledge
       www.gstatic.com/codesite/ph/    and observations. Pebl includes the
-      images/cleardot.gif] Medium     following features:
+      images/cleardot.gif] Low        following features:
     * Project_feeds                       * Can learn with observational and
     * Code license                          interventional data
     * MIT_License                         * Handles missing values and hidden

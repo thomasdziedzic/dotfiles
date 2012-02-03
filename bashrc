@@ -49,3 +49,6 @@ flushswap() {
   sudo swapoff -a
   sudo swapon -a
 }
+
+# radio
+alias siradio='mplayer http://listen.siradio.fm'

@@ -398,6 +398,7 @@ git://github.com/mongodb/mongo.git:
 - r2.0.2-rc0
 - r2.0.2-rc1
 - r2.0.2-rc2
+- r2.1.0
 git://github.com/tatsuhiro-t/aria2.git:
 - release-0.1.0
 - release-0.10.0

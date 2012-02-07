@@ -146,6 +146,7 @@ git://github.com/mitsuhiko/werkzeug.git:
 - '0.8'
 - 0.8.1
 - 0.8.2
+- 0.8.3
 git://github.com/mitsuhiko/flask.git:
 - '0.1'
 - '0.2'

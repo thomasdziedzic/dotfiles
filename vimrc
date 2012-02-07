@@ -19,6 +19,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-rails'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'trapd00r/neverland-vim-theme'
+Bundle 'vim-scripts/UltiSnips'
 " vim-scripts repos
 Bundle 'Color-Sampler-Pack'
 Bundle 'LanguageTool'

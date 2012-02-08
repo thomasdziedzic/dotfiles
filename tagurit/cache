@@ -127,6 +127,7 @@ git://github.com/joyent/node.git:
 - v0.7.0
 - v0.7.1
 - v0.7.2
+- v0.7.3
 - works
 git://github.com/mitsuhiko/werkzeug.git:
 - '0.1'
@@ -399,6 +400,7 @@ git://github.com/mongodb/mongo.git:
 - r2.0.2-rc0
 - r2.0.2-rc1
 - r2.0.2-rc2
+- r2.0.3-rc0
 - r2.1.0
 git://github.com/tatsuhiro-t/aria2.git:
 - release-0.1.0
@@ -689,7 +691,18 @@ git://www.swi-prolog.org/home/pl/git/pl.git:
 - V5.11.24
 - V5.11.25
 - V5.11.26
+- V5.11.27
+- V5.11.28
+- V5.11.29
 - V5.11.3
+- V5.11.30
+- V5.11.31
+- V5.11.32
+- V5.11.33
+- V5.11.34
+- V5.11.35
+- V5.11.36
+- V5.11.37
 - V5.11.4
 - V5.11.5
 - V5.11.6
@@ -878,6 +891,7 @@ git://www.swi-prolog.org/home/pl/git/pl.git:
 - V5.9.8
 - V5.9.9
 - V57XMERGE
+- V6.0.0
 - WORKING
 - XPCE-5.1.10
 - XPCE-5.1.11

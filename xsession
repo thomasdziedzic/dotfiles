@@ -9,4 +9,4 @@ feh --bg-scale ~/pics/redtrees.jpg
 
 xrdb -merge ~/.Xresources
 
-exec xmonad
+exec ~/.cabal/bin/xmonad

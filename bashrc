@@ -52,3 +52,5 @@ flushswap() {
 
 # radio
 alias siradio='mplayer http://listen.siradio.fm'
+
+export PATH="$PATH:~/.cabal/bin"

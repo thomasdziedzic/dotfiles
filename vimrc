@@ -63,6 +63,10 @@ let g:pymode_syntax = 1
 au FileType ruby set sw=2
 au FileType ruby set sts=2
 
+" bash section
+au FileType bash set sw=2
+au FileType bash set sts=2
+
 " for vim quickrun
 nmap <F9> :QuickRun<cr> 
 

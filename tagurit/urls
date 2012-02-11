@@ -1,4 +1,8 @@
-# repos
+# extra
+git://github.com/ruby/ruby.git
+git://github.com/ghc/ghc.git
+
+# community
 git://github.com/joyent/node.git
 git://github.com/mitsuhiko/werkzeug.git
 git://github.com/mitsuhiko/flask.git

@@ -20,6 +20,9 @@ Bundle 'tpope/vim-rails'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'trapd00r/neverland-vim-theme'
 Bundle 'vim-scripts/UltiSnips'
+Bundle 'lukerandall/haskellmode-vim'
+Bundle 'jelera/vim-gummybears-colorscheme'
+Bundle 'Lokaltog/vim-powerline'
 " vim-scripts repos
 Bundle 'Color-Sampler-Pack'
 Bundle 'LanguageTool'
@@ -75,3 +78,15 @@ let g:session_autoload = 'no'
 
 " use {{{ and }}} to specify a region, useful for large blocks of trivial functions
 set foldmethod=marker
+
+" use ghc functionality for haskell files
+au Bufenter *.hs compiler ghc
+let g:haddock_browser = "/usr/bin/google-chrome"
+
+" powerline stuff
+set nocompatible   " Disable vi-compatibility
+set laststatus=2   " Always show the statusline
+set encoding=utf-8 " Necessary to show unicode glyphs
+
+" Explicitly tell vim that the terminal supports 256 colors
+set t_Co=256

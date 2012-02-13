@@ -54,3 +54,4 @@ flushswap() {
 alias siradio='mplayer http://listen.siradio.fm'
 
 export PATH="$PATH:~/.cabal/bin"
+export PATH="$PATH:~/.gem/ruby/1.9.1/bin"

@@ -1,8 +1,10 @@
-# extra
-git://github.com/ruby/ruby.git
+######### extra
 git://github.com/ghc/ghc.git
+#~svn
+http://svn.ruby-lang.org/repos/ruby/tags/
 
-# community
+######### community
+#~git
 git://github.com/joyent/node.git
 git://github.com/mitsuhiko/werkzeug.git
 git://github.com/mitsuhiko/flask.git
@@ -17,15 +19,16 @@ git://paraview.org/ParaView.git
 git://www.swi-prolog.org/home/pl/git/pl.git
 git://github.com/nltk/nltk.git
 git://github.com/facebook/tornado.git
-# aur
+#~svn
+http://root.cern.ch/svn/root/tags/
+svn://scm.gforge.inria.fr/svn/coq/tags
+
+######### aur
+#~git
 git://github.com/ingenuitas/SimpleCV.git
 git://github.com/Theano/Theano.git
 git://github.com/pybrain/pybrain.git
 git://github.com/luispedro/milk.git
-
-#~svn
-http://root.cern.ch/svn/root/tags/
-svn://scm.gforge.inria.fr/svn/coq/tags
 
 #~hg
 https://bitbucket.org/bobf/bpython/

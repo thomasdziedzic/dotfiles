@@ -1,5 +1,5 @@
 ---
-git://github.com/ghc/ghc.git:
+http://darcs.haskell.org/ghc.git:
 - '04_07_06'
 - '07_04_06'
 - '2006-10-05'

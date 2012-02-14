@@ -1,5 +1,5 @@
 ######### extra
-git://github.com/ghc/ghc.git
+http://darcs.haskell.org/ghc.git
 #~svn
 http://svn.ruby-lang.org/repos/ruby/tags/
 

@@ -630,6 +630,7 @@ git://paraview.org/ParaView.git:
 - v3.12.0-RC1
 - v3.12.0-RC2
 - v3.12.0-RC3
+- v3.14.0
 - v3.14.0-RC1
 - v3.14.0-RC2
 - v3.2.0
@@ -1341,6 +1342,7 @@ http://svn.ruby-lang.org/repos/ruby/tags/:
 - v1_9_2_136
 - v1_9_2_180
 - v1_9_2_290
+- v1_9_2_381
 - v1_9_2_preview1
 - v1_9_2_preview2
 - v1_9_2_preview3

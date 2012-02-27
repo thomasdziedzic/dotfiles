@@ -168,6 +168,7 @@ git://github.com/joyent/node.git:
 - v0.7.2
 - v0.7.3
 - v0.7.4
+- v0.7.5
 - works
 git://github.com/mitsuhiko/werkzeug.git:
 - '0.1'
@@ -1089,6 +1090,7 @@ git://github.com/ingenuitas/SimpleCV.git:
 - '1.2'
 git://github.com/Theano/Theano.git:
 - rel-0.4.1
+- rel-0.5
 - rel-0.5rc2
 git://github.com/pybrain/pybrain.git:
 - 0.2.1

@@ -249,7 +249,9 @@ git://github.com/scipy/scipy.git:
 - v0.10.0b1
 - v0.10.0b2
 - v0.10.0rc1
+- v0.10.1
 - v0.10.1rc1
+- v0.10.1rc2
 - v0.2.0
 - v0.2.2
 - v0.3.0
@@ -442,7 +444,9 @@ git://github.com/mongodb/mongo.git:
 - r2.0.2-rc0
 - r2.0.2-rc1
 - r2.0.2-rc2
+- r2.0.3
 - r2.0.3-rc0
+- r2.0.3-rc1
 - r2.1.0
 git://github.com/tatsuhiro-t/aria2.git:
 - release-0.1.0

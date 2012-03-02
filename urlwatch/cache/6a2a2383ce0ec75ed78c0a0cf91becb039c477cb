@@ -20,16 +20,11 @@ supervised and unsupervised problems and it is aimed at finding a reasonable
 compromise among modularity, maintainability, reproducibility, usability and
 efficiency. mlpy is multiplatform, it works with Python 2 and 3 and it is Open
 Source, distributed under the GNU General Public License version 3.
-**** How to cite mlpy: ****
-D. Albanese, S. Merler, G. Jurman, R. Visintainer, C. Furlanello. mlpy - high-
-performance Python package for predictive modeling. NIPS 08 - Whistler, B.C.
-Canada. Software available at http://mlpy.fbk.eu.
-@Misc{ albanese12mlpy, author = "Davide Albanese and Roberto Visintainer and
-Stefano Merler and Samantha Riccadonna and Giuseppe Jurman and Cesare
-Furlanello", title = "mlpy: Machine Learning Python", journal = "", year =
-"2012", archivePrefix = "arXiv", eprint = "1202.6548", primaryClass = "cs" }
-mlpy was used in the following_applications.
+**** If you use mlpy, please cite: ****
+D. Albanese, R. Visintainer, S. Merler, S. Riccadonna, G. Jurman, C.
+Furlanello. mlpy: Machine Learning Python, 2012. arXiv:1202.6548 [bib]
 [screenshots]
+mlpy was used in the following_applications.
 ***** Features *****
 Regression: Least Squares, Ridge Regression, Last Angle Regression, Elastic
 Net, Kernel Ridge Regression, Support Vector Machines (SVR), Partial Least

@@ -29,6 +29,7 @@ Bundle 'LanguageTool'
 Bundle 'ScrollColors'
 Bundle 'CCTree'
 Bundle 'guicolorscheme.vim'
+Bundle 'haskell.vim'
 " non github repos
 
 " languagetool jar needs to be set

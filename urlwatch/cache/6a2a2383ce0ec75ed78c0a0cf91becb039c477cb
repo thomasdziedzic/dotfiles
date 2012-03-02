@@ -13,17 +13,22 @@ mlpy 3.2 released (2011-12-5)
 mlpy 3.1 released (2011-12-1)
 ****** mlpy - Machine Learning Python ******
 ===============================================================================
-mlpy is a Python module for Machine Learning built on top of NumPy/SciPy and of
-GSL.
-mlpy provides high-level functions and classes allowing, with few lines of
-code, the design of rich workflows for classification, regression, clustering
-and feature selection. mlpy is free software; you can redistribute it and/or
-modify it under the terms of the GNU General Public License version 3.
-mlpy is available both for Python >=2.6 and Python 3.X.
+mlpy is a Python module for Machine Learning built on top of NumPy/SciPy and
+the GNU_Scientific_Libraries.
+mlpy provides a wide range of state-of-the-art machine learning methods for
+supervised and unsupervised problems and it is aimed at finding a reasonable
+compromise among modularity, maintainability, reproducibility, usability and
+efficiency. mlpy is multiplatform, it works with Python 2 and 3 and it is Open
+Source, distributed under the GNU General Public License version 3.
 **** How to cite mlpy: ****
 D. Albanese, S. Merler, G. Jurman, R. Visintainer, C. Furlanello. mlpy - high-
 performance Python package for predictive modeling. NIPS 08 - Whistler, B.C.
 Canada. Software available at http://mlpy.fbk.eu.
+@Misc{ albanese12mlpy, author = "Davide Albanese and Roberto Visintainer and
+Stefano Merler and Samantha Riccadonna and Giuseppe Jurman and Cesare
+Furlanello", title = "mlpy: Machine Learning Python", journal = "", year =
+"2012", archivePrefix = "arXiv", eprint = "1202.6548", primaryClass = "cs" }
+mlpy was used in the following_applications.
 [screenshots]
 ***** Features *****
 Regression: Least Squares, Ridge Regression, Last Angle Regression, Elastic
@@ -74,7 +79,7 @@ Predictive_Models_for_Biological_and_Environmental_Data_Analysis_(MPBA)
 Research Unit at Fondazione_Bruno_Kessler and it is co-funded by Associazione
 Italiana_per_la_Ricerca_sul_Cancro
 
-     Last update: 09 January 2012
+     Last update: 29 February 2012
      by Davide Albanese.
 [Valid
 	XHTML_1.0_Transitional]

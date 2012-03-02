@@ -315,6 +315,8 @@ git://github.com/clojure/clojure.git:
 - clojure-1.4.0-alpha4
 - clojure-1.4.0-alpha5
 - clojure-1.4.0-beta1
+- clojure-1.4.0-beta2
+- clojure-1.4.0-beta3
 git://github.com/wojdyr/fityk.git:
 - v1.0.0
 - v1.0.1
@@ -943,6 +945,7 @@ git://www.swi-prolog.org/home/pl/git/pl.git:
 - V5.9.9
 - V57XMERGE
 - V6.0.0
+- V6.0.1
 - WORKING
 - XPCE-5.1.10
 - XPCE-5.1.11
@@ -1574,6 +1577,7 @@ http://root.cern.ch/svn/root/tags/:
 - v5-32-00
 - v5-32-00-rc1
 - v5-32-00-rc2
+- v5-32-01
 svn://scm.gforge.inria.fr/svn/coq/tags:
 - V7-0
 - V7-0beta

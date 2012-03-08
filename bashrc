@@ -42,9 +42,8 @@ alias py2=bpython2
 alias db-aur='ssh aur /arch/db-update'
 alias db-ger='ssh ger /arch/db-update'
 alias svnex='svn up --set-depth exclude'
-t() {
-  tagurit && urlwatch
-}
+alias t='tagurit && urlwatch'
+alias u='y -Syua'
 
 flushswap() {
   sudo swapoff -a

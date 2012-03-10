@@ -318,6 +318,7 @@ git://github.com/clojure/clojure.git:
 - clojure-1.4.0-beta1
 - clojure-1.4.0-beta2
 - clojure-1.4.0-beta3
+- clojure-1.4.0-beta4
 git://github.com/wojdyr/fityk.git:
 - v1.0.0
 - v1.0.1

@@ -4,6 +4,7 @@
     * Documentation
     * mlpy_at_SF
 **** News ****
+mlpy 3.5.0 released (2012-03-12).
 mlpy 3.4.0 released (2012-01-09).
 mlpy 3.3.0 released (2011-12-19). From this version, mlpy for Windows is
 compiled with Visual Studio Express 2008 in order to avoid runtime errors.
@@ -46,7 +47,7 @@ resampling algorithms, error evaluation, peak finding algorithms, Dynamic Time
 Warping (DTW) distance, Longest Common Subsequence (LCS).
 mlpy is completely compatible with PyInstaller
 ***** Download *****
-The latest release of mlpy is 3.4.0 (released 2012-01-09). You can download it
+The latest release of mlpy is 3.5.0 (released 2012-03-12). You can download it
 as a source or as Windows installers (Download). mlpy is also available from
 the PyPi package repository. You can retrieve the latest code with the command
 (Mercurial is required):
@@ -60,6 +61,7 @@ If you still have questions, feel free to send an email to the mlpy-general
 mailing list. To post a message to all the list members, send email to mlpy-
 general AT googlegroups.com.
 Old Documentation:
+    * mlpy_3.4
     * mlpy_3.3
     * mlpy_3.2
     * mlpy_3.1

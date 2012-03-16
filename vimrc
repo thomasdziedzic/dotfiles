@@ -20,16 +20,26 @@ Bundle 'tpope/vim-rails'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'trapd00r/neverland-vim-theme'
 Bundle 'vim-scripts/UltiSnips'
-Bundle 'lukerandall/haskellmode-vim'
+Bundle 'Shougo/neocomplcache'
+" need this as a dep for ghcmod-vim also, run make whenever updated
+Bundle 'Shougo/vimproc'
+Bundle 'eagletmt/ghcmod-vim'
+" code completion for haskell todo: add neocomplcache
+Bundle 'ujihisa/neco-ghc'
+"Bundle 'lukerandall/haskellmode-vim'
 Bundle 'jelera/vim-gummybears-colorscheme'
 Bundle 'Lokaltog/vim-powerline'
+
 " vim-scripts repos
+
 Bundle 'Color-Sampler-Pack'
 Bundle 'LanguageTool'
 Bundle 'ScrollColors'
 Bundle 'CCTree'
 Bundle 'guicolorscheme.vim'
+" updated syntax files
 Bundle 'haskell.vim'
+
 " non github repos
 
 " languagetool jar needs to be set
@@ -80,9 +90,8 @@ let g:session_autoload = 'no'
 " use {{{ and }}} to specify a region, useful for large blocks of trivial functions
 set foldmethod=marker
 
-" use ghc functionality for haskell files
-au Bufenter *.hs compiler ghc
-let g:haddock_browser = "/usr/bin/google-chrome"
+" enable neocomplcache completion
+let g:neocomplcache_enable_at_startup = 1
 
 " powerline stuff
 set nocompatible   " Disable vi-compatibility

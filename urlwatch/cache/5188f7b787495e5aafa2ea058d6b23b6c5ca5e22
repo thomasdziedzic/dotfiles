@@ -56,12 +56,13 @@ connections between the program functions are made synchronous and explicit in
 the GUI. Both the console program and the GUI operate identically on the
 underlying database.
 Prior to installing NUT, install fltk-1.1.10, but NUT does not work with the
-so-called "stable" fltk-1.3.0, although it works with some 1.3 betas. You may
-use the console and GUI versions interchangeably, but not at the same time
-because they would overwrite each other's changes to the database just as two
-instances of the console program would; although the problem is made worse
-because the GUI saves its state much more often and a change to anything in the
-GUI is a change to just about everything in the GUI.
+so-called "stable" fltk-1.3.0, although it works with some 1.3 betas, and NUT
+does not work with fltk2 or fltk3. You may use the console and GUI versions
+interchangeably, but not at the same time because they would overwrite each
+other's changes to the database just as two instances of the console program
+would; although the problem is made worse because the GUI saves its state much
+more often and a change to anything in the GUI is a change to just about
+everything in the GUI.
 The GUI is not resizable; however, if you edit the "fontsize" file in the
 .nutdb directory, the next time the GUI comes up it will size itself
 proportionally to the new font size in pixels. The range is 8 to 24; the

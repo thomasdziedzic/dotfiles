@@ -12,7 +12,7 @@ Bundle 'gmarik/vundle'
 "
 " original repos on github
 Bundle 'scrooloose/nerdtree'
-Bundle 'klen/python-mode'
+"Bundle 'klen/python-mode'
 Bundle 'thinca/vim-quickrun'
 Bundle 'xolox/vim-session'
 Bundle 'altercation/vim-colors-solarized'
@@ -71,7 +71,10 @@ set smartcase
 au FileType python let g:python = 'python2'
 au FileType python let g:pydoc = 'pydoc2'
 "au FileType python let g:pymode_syntax = 1
-let g:pymode_syntax = 1
+"let g:pymode_syntax = 1
+au FileType python set tabstop=4
+au FileType python set shiftwidth=4
+au FileType python set expandtab
 
 " ruby section
 au FileType ruby set sw=2

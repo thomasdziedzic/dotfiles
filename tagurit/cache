@@ -173,6 +173,7 @@ git://github.com/joyent/node.git:
 - v0.7.4
 - v0.7.5
 - v0.7.6
+- v0.7.7
 - works
 git://github.com/mitsuhiko/werkzeug.git:
 - '0.1'
@@ -323,6 +324,7 @@ git://github.com/clojure/clojure.git:
 - clojure-1.4.0-beta3
 - clojure-1.4.0-beta4
 - clojure-1.4.0-beta5
+- clojure-1.4.0-beta6
 git://github.com/wojdyr/fityk.git:
 - v1.0.0
 - v1.0.1
@@ -650,6 +652,7 @@ git://paraview.org/ParaView.git:
 - v3.14.0
 - v3.14.0-RC1
 - v3.14.0-RC2
+- v3.14.1
 - v3.2.0
 - v3.2.1
 - v3.2.2
@@ -1589,6 +1592,7 @@ http://root.cern.ch/svn/root/tags/:
 - v5-32-01
 - v5-32-02
 - v5-33-02
+- v5-33-02a
 svn://scm.gforge.inria.fr/svn/coq/tags:
 - V7-0
 - V7-0beta

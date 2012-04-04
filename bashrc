@@ -33,6 +33,7 @@ eval `keychain --eval --agents ssh id_dsa --quiet`
 alias g=git
 alias ll='ls -l'
 alias y=yaourt
+alias v=vim
 alias py=bpython
 alias py2=bpython2
 

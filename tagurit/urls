@@ -10,15 +10,12 @@ git://github.com/mitsuhiko/werkzeug.git
 git://github.com/mitsuhiko/flask.git
 git://github.com/sympy/sympy.git
 git://github.com/scipy/scipy.git
-git://github.com/clojure/clojure.git
-git://github.com/wojdyr/fityk.git
 git://github.com/mongodb/mongo.git
 git://github.com/tatsuhiro-t/aria2.git
 git://vtk.org/VTK.git
 git://paraview.org/ParaView.git
 git://www.swi-prolog.org/home/pl/git/pl.git
 git://github.com/nltk/nltk.git
-git://github.com/facebook/tornado.git
 #~svn
 http://root.cern.ch/svn/root/tags/
 svn://scm.gforge.inria.fr/svn/coq/tags

@@ -1,7 +1,5 @@
 # repos
 http://pauillac.inria.fr/~ddr/camlp5/
-http://nut.sourceforge.net/
-http://sourceforge.net/projects/cgns/files/
 
 # AUR
 http://mlpy.sourceforge.net/

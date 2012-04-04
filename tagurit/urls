@@ -12,13 +12,11 @@ git://github.com/sympy/sympy.git
 git://github.com/scipy/scipy.git
 git://github.com/mongodb/mongo.git
 git://github.com/tatsuhiro-t/aria2.git
-git://vtk.org/VTK.git
-git://paraview.org/ParaView.git
-git://www.swi-prolog.org/home/pl/git/pl.git
 git://github.com/nltk/nltk.git
 #~svn
-http://root.cern.ch/svn/root/tags/
 svn://scm.gforge.inria.fr/svn/coq/tags
+#~hg
+https://bitbucket.org/bobf/bpython/
 
 ######### aur
 #~git
@@ -26,6 +24,3 @@ git://github.com/ingenuitas/SimpleCV.git
 git://github.com/Theano/Theano.git
 git://github.com/pybrain/pybrain.git
 git://github.com/luispedro/milk.git
-
-#~hg
-https://bitbucket.org/bobf/bpython/

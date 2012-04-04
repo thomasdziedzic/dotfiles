@@ -1,8 +1,6 @@
 # repos
 http://pauillac.inria.fr/~ddr/camlp5/
 http://nut.sourceforge.net/
-http://boxen.math.washington.edu/sage/src/announce/index.html
-http://xylib.sourceforge.net/
 http://sourceforge.net/projects/cgns/files/
 
 # AUR

@@ -863,6 +863,7 @@ svn://scm.gforge.inria.fr/svn/coq/tags:
 - trunk
 https://bitbucket.org/bobf/bpython/:
 - tip
+- 0.11-release
 - 0.10.1-release
 - 0.10-release
 - 0.9.7.1-release

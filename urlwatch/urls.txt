@@ -1,6 +1,3 @@
-# repos
-http://pauillac.inria.fr/~ddr/camlp5/
-
 # AUR
 http://mlpy.sourceforge.net/
 http://code.google.com/p/pebl-project/

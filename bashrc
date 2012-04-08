@@ -54,6 +54,7 @@ flushswap() {
 # radio
 alias siradio='mplayer http://listen.siradio.fm'
 alias groovesalad='mplayer http://streamer-dtc-aa04.somafm.com:80/stream/1018'
+alias electrohouse='mplayer http://u17b.di.fm:80/di_electrohouse'
 
 export PATH="$PATH:$HOME/.cabal/bin"
 export PATH="$PATH:$(ruby -rubygems -e 'puts Gem.user_dir')/bin"

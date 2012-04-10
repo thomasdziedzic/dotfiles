@@ -158,6 +158,7 @@ git://github.com/joyent/node.git:
 - v0.6.12
 - v0.6.13
 - v0.6.14
+- v0.6.15
 - v0.6.2
 - v0.6.3
 - v0.6.4
@@ -535,6 +536,8 @@ git://github.com/tatsuhiro-t/aria2.git:
 git://github.com/nltk/nltk.git:
 - 2.0.1rc1
 - 2.0.1rc2
+- 2.0.1rc3
+- 2.0.1rc4
 git://github.com/ingenuitas/SimpleCV.git:
 - '0.9'
 - '1.0'
@@ -796,7 +799,7 @@ http://svn.ruby-lang.org/repos/ruby/tags/:
 - v1_9_2_136
 - v1_9_2_180
 - v1_9_2_290
-- v1_9_2_381
+- v1_9_2_318
 - v1_9_2_preview1
 - v1_9_2_preview2
 - v1_9_2_preview3

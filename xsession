@@ -11,4 +11,11 @@ xrdb -merge ~/.Xresources
 
 xmodmap ~/.xmodmaprc
 
-exec ~/.cabal/bin/xmonad
+# notifications!
+/usr/lib/notification-daemon-1.0/notification-daemon &
+
+# needed for nm-applet
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+# ck-launch-session dbus-launch needed nm-applet permissions
+exec ck-launch-session dbus-launch ~/.cabal/bin/xmonad

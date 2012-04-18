@@ -9,6 +9,9 @@ feh --bg-scale ~/pics/redtrees.jpg
 
 xrdb -merge ~/.Xresources
 
+# switch esc with caps lock
 xmodmap ~/.xmodmaprc
 
+# ck-launch-session dbus-launch needed nm-applet permissions
+#exec ck-launch-session dbus-launch --exit-with-session ~/.launchwm
 exec ~/.cabal/bin/xmonad

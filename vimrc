@@ -20,7 +20,7 @@ Bundle 'tpope/vim-rails'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'trapd00r/neverland-vim-theme'
 Bundle 'vim-scripts/UltiSnips'
-"Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neocomplcache'
 " need this as a dep for ghcmod-vim also, run make whenever updated
 Bundle 'Shougo/vimproc'
 Bundle 'eagletmt/ghcmod-vim'

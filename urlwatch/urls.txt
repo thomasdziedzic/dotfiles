@@ -1,6 +1,0 @@
-# AUR
-http://mlpy.sourceforge.net/
-http://code.google.com/p/pebl-project/
-http://sourceforge.net/projects/pyml/files/
-http://alioth.debian.org/frs/?group_id=30954
-http://sourceforge.net/projects/rapidminer/files/1.%20RapidMiner/

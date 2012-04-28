@@ -29,6 +29,7 @@ Bundle 'ujihisa/neco-ghc'
 "Bundle 'lukerandall/haskellmode-vim'
 Bundle 'jelera/vim-gummybears-colorscheme'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'tpope/vim-fugitive'
 
 " vim-scripts repos
 
@@ -103,3 +104,6 @@ set encoding=utf-8 " Necessary to show unicode glyphs
 
 " Explicitly tell vim that the terminal supports 256 colors
 set t_Co=256
+
+" trigger autoleave insert commands, normally ctrl+c doesn't do this
+imap <c-c> <Esc>

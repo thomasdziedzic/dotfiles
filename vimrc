@@ -1,16 +1,10 @@
-" required by vundle
+"" vundle specific
 filetype off
-
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
-
-" let Vundle manage Vundle
-" required! 
 Bundle 'gmarik/vundle'
 
-" My Bundles here:
-"
-" original repos on github
+"" original repos on github
 Bundle 'scrooloose/nerdtree'
 "Bundle 'klen/python-mode'
 Bundle 'thinca/vim-quickrun'
@@ -21,89 +15,72 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'trapd00r/neverland-vim-theme'
 Bundle 'vim-scripts/UltiSnips'
 Bundle 'Shougo/neocomplcache'
-" need this as a dep for ghcmod-vim also, run make whenever updated
-Bundle 'Shougo/vimproc'
-Bundle 'eagletmt/ghcmod-vim'
-" code completion for haskell todo: add neocomplcache
+"Bundle 'Shougo/vimproc' " need this as a dep for ghcmod-vim also, run make whenever updated
+"Bundle 'eagletmt/ghcmod-vim' " code completion for haskell todo: add neocomplcache
 Bundle 'ujihisa/neco-ghc'
 "Bundle 'lukerandall/haskellmode-vim'
 Bundle 'jelera/vim-gummybears-colorscheme'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'tpope/vim-fugitive'
+Bundle 'scrooloose/syntastic'
 
-" vim-scripts repos
-
+"" vim-scripts repos
 Bundle 'Color-Sampler-Pack'
 Bundle 'LanguageTool'
 Bundle 'ScrollColors'
 Bundle 'CCTree'
 Bundle 'guicolorscheme.vim'
-" updated syntax files
+" updated syntax file
 Bundle 'haskell.vim'
 
-" non github repos
+"" general stuff
+set nocompatible   " disable vi-compatibility
+set encoding=utf-8 " necessary to show unicode glyphs
+set showcmd        " display incomplete commands
+set number         " turn line numbering on
+set cursorline     " highlight the cursor line
+set cursorcolumn   " highlight the cursor column
+filetype plugin indent on " turn on filetype detection, filetype plugins, and autoindent
 
-" languagetool jar needs to be set
-let g:languagetool_jar = '/usr/share/languagetool/LanguageTool.jar'
+"" color stuffs
+syntax on           " turn syntax highlighting on
+set t_Co=256        " Explicitly tell vim that the terminal supports 256 colors
+colorscheme lettuce " because we prefer a non default colorscheme
 
-" turn line numbering on
-set number
+"" whitespace
+set nowrap       " don't wrap lines
+set tabstop=4    " tabs count as 4 spaces
+set shiftwidth=4 " number of spaces to use in autoindent
+set expandtab    " use spaces instead of tabs
 
-" turn syntax highlighting on
-syntax on
+set backspace=indent,eol,start " backspace through everything in insert mode
 
-" set to molokai cause it's the best
-"colorscheme molokai
-colorscheme lettuce
+"" search
+set hlsearch   " highlight matches
+set incsearch  " incremental search
+set ignorecase " ignore case in search pattern
+set smartcase  " override ignorecase if there are uppercase letters in the search pattern
 
-" turn on filetype detection, filetype plugins, and autoindent
-filetype plugin indent on
+let g:languagetool_jar = '/usr/share/languagetool/LanguageTool.jar' " languagetool jar needs to be set
 
-" ignore case in search pattern
-set ignorecase
+"" python
+au FileType python set tabstop=4 shiftwidth=4 expandtab
 
-" override ignorecase if there are uppercase letters in the search pattern
-set smartcase
+"" ruby
+au FileType ruby set tabstop=2 shiftwidth=2 expandtab
 
-"set cursorline
-"set cursorcolumn
+"" bash
+au FileType bash set tabstop=2 shiftwidth=2 expandtab
 
-" python-mode section
-au FileType python let g:python = 'python2'
-au FileType python let g:pydoc = 'pydoc2'
-"au FileType python let g:pymode_syntax = 1
-"let g:pymode_syntax = 1
-au FileType python set tabstop=4
-au FileType python set shiftwidth=4
-au FileType python set expandtab
+nmap <F9> :QuickRun<cr> " for vim quickrun
 
-" ruby section
-au FileType ruby set sw=2
-au FileType ruby set sts=2
+let g:session_autoload = 'no' " don't autoload vim-session saves
 
-" bash section
-au FileType bash set sw=2
-au FileType bash set sts=2
+set foldmethod=marker " use {{{ and }}} to specify a region, useful for large blocks of trivial functions
 
-" for vim quickrun
-nmap <F9> :QuickRun<cr> 
-
-" don't autoload vim-session saves
-let g:session_autoload = 'no'
-
-" use {{{ and }}} to specify a region, useful for large blocks of trivial functions
-set foldmethod=marker
-
-" enable neocomplcache completion
-let g:neocomplcache_enable_at_startup = 1
+let g:neocomplcache_enable_at_startup = 1 " enable neocomplcache completion
 
 " powerline stuff
-set nocompatible   " Disable vi-compatibility
 set laststatus=2   " Always show the statusline
-set encoding=utf-8 " Necessary to show unicode glyphs
 
-" Explicitly tell vim that the terminal supports 256 colors
-set t_Co=256
-
-" trigger autoleave insert commands, normally ctrl+c doesn't do this
-imap <c-c> <Esc>
+imap <c-c> <Esc> " trigger autoleave insert commands, normally ctrl+c doesn't do this

@@ -61,6 +61,12 @@ set incsearch  " incremental search
 set ignorecase " ignore case in search pattern
 set smartcase  " override ignorecase if there are uppercase letters in the search pattern
 
+"" easier split window navigation
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+
 let g:languagetool_jar = '/usr/share/languagetool/LanguageTool.jar' " languagetool jar needs to be set
 
 "" python

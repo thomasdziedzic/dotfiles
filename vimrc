@@ -23,6 +23,7 @@ Bundle 'jelera/vim-gummybears-colorscheme'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/syntastic'
+Bundle 'kien/ctrlp.vim'
 
 "" vim-scripts repos
 Bundle 'Color-Sampler-Pack'

@@ -33,6 +33,7 @@ Bundle 'CCTree'
 Bundle 'guicolorscheme.vim'
 " updated syntax file
 Bundle 'haskell.vim'
+Bundle 'vim-ruby/vim-ruby'
 
 "" general stuff
 set nocompatible   " disable vi-compatibility

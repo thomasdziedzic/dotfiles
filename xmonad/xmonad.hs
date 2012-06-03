@@ -87,8 +87,8 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- launch dmenu
     , ((modm,               xK_p     ), spawn "dmenu_run")
 
-    -- launch google-chrome
-    , ((modm .|. shiftMask, xK_g     ), spawn "google-chrome")
+    -- launch chromium
+    , ((modm .|. shiftMask, xK_g     ), spawn "chromium")
 
     -- launch virtualbox
     , ((modm .|. shiftMask, xK_v     ), spawn "virtualbox")

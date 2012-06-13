@@ -35,6 +35,7 @@ http://darcs.haskell.org/ghc.git:
 - ghc-7.2.1-release
 - ghc-7.2.2-release
 - ghc-7.4.1-release
+- ghc-7.4.2-release
 - ghc-darcs-git-switchover
 http://svn.ruby-lang.org/repos/ruby/tags/:
 - REXML_2_7_0

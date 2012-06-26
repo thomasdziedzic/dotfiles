@@ -4,4 +4,8 @@
 # notifications!
 /usr/lib/notification-daemon-1.0/notification-daemon &
 
+trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 6 --transparent true --alpha 0 --tint 0x000000 --height 18 & 
+
+nm-applet &
+
 exec ~/.cabal/bin/xmonad

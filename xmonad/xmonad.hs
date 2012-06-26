@@ -289,9 +289,10 @@ myStartupHook = return ()
 main = do
     xmproc <- spawnPipe "~/.cabal/bin/xmobar ~/.xmobar.hs"
     xmonad $ defaults {
+        manageHook = manageDocks <+> manageHook defaults,
         logHook = dynamicLogWithPP $ xmobarPP {
               ppOutput = hPutStrLn xmproc
-            , ppTitle = xmobarColor xmobarTitleColor "" . shorten 100
+            , ppTitle = xmobarColor xmobarTitleColor "" . shorten 50
             , ppCurrent = xmobarColor xmobarCurrentWorkspaceColor ""
             , ppSep = " "
         }

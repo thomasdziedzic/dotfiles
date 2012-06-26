@@ -24,6 +24,7 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/syntastic'
 Bundle 'kien/ctrlp.vim'
+"Bundle 'frerich/unicode-haskell'
 
 "" vim-scripts repos
 Bundle 'Color-Sampler-Pack'

@@ -1,95 +1,174 @@
-"" vundle specific
+" vundle {{{
+
+" disable to load vundle
 filetype off
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
+
 Bundle 'gmarik/vundle'
-
-"" original repos on github
+Bundle 'git://repo.or.cz/vcscommand.git'
+Bundle 'neowit/vim-force.com'
 Bundle 'scrooloose/nerdtree'
-"Bundle 'klen/python-mode'
-Bundle 'thinca/vim-quickrun'
-Bundle 'xolox/vim-session'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'tpope/vim-rails'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'trapd00r/neverland-vim-theme'
-Bundle 'vim-scripts/UltiSnips'
-Bundle 'Shougo/neocomplcache'
-"Bundle 'Shougo/vimproc' " need this as a dep for ghcmod-vim also, run make whenever updated
-"Bundle 'eagletmt/ghcmod-vim' " code completion for haskell todo: add neocomplcache
-Bundle 'ujihisa/neco-ghc'
-"Bundle 'lukerandall/haskellmode-vim'
-Bundle 'jelera/vim-gummybears-colorscheme'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'tpope/vim-fugitive'
-Bundle 'scrooloose/syntastic'
+Bundle 'Lokaltog/vim-easymotion'
 Bundle 'kien/ctrlp.vim'
-"Bundle 'frerich/unicode-haskell'
 
-"" vim-scripts repos
-Bundle 'Color-Sampler-Pack'
-Bundle 'LanguageTool'
-Bundle 'ScrollColors'
-Bundle 'CCTree'
-Bundle 'guicolorscheme.vim'
-" updated syntax file
-Bundle 'haskell.vim'
-Bundle 'vim-ruby/vim-ruby'
+" dependencies for snipmate along with snipmate
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "honza/vim-snippets"
+Bundle 'garbas/vim-snipmate'
 
-"" general stuff
-set nocompatible   " disable vi-compatibility
-set encoding=utf-8 " necessary to show unicode glyphs
-set showcmd        " display incomplete commands
-set number         " turn line numbering on
-set cursorline     " highlight the cursor line
-set cursorcolumn   " highlight the cursor column
-filetype plugin indent on " turn on filetype detection, filetype plugins, and autoindent
+" can't compile this on the linode machine since it doesn't contain enough ram
+" to compile it -.-, hopefully the upgrade to 1gb will make this compileable
+Bundle 'Valloric/YouCompleteMe'
 
-"" color stuffs
-syntax on           " turn syntax highlighting on
-set t_Co=256        " Explicitly tell vim that the terminal supports 256 colors
-colorscheme lettuce " because we prefer a non default colorscheme
+" }}}
 
-"" whitespace
-set nowrap       " don't wrap lines
-set tabstop=4    " tabs count as 4 spaces
-set shiftwidth=4 " number of spaces to use in autoindent
-set expandtab    " use spaces instead of tabs
+" search {{{
 
-set backspace=indent,eol,start " backspace through everything in insert mode
+" ignore case when searching
+set ignorecase
 
-"" search
-set hlsearch   " highlight matches
-set incsearch  " incremental search
-set ignorecase " ignore case in search pattern
-set smartcase  " override ignorecase if there are uppercase letters in the search pattern
+" smart ignore case searching
+set smartcase
 
-"" easier split window navigation
-nnoremap <c-j> <c-w>j
-nnoremap <c-k> <c-w>k
-nnoremap <c-h> <c-w>h
-nnoremap <c-l> <c-w>l
+" incremental searching
+set incsearch
 
-let g:languagetool_jar = '/usr/share/languagetool/LanguageTool.jar' " languagetool jar needs to be set
+" }}}
 
-"" python
-au FileType python set tabstop=4 shiftwidth=4 expandtab
+" force.com {{{
 
-"" ruby
-au FileType ruby set tabstop=2 shiftwidth=2 expandtab
+let g:apex_backup_folder="/home/thomas-dziedzic/.apex/backup"
+let g:apex_temp_folder="/home/thomas-dziedzic/.apex/temp"
+let g:apex_deployment_error_log="gvim-deployment-error.log"
+let g:apex_properties_folder="/home/thomas-dziedzic/.apex/login"
 
-"" bash
-au FileType bash set tabstop=2 shiftwidth=2 expandtab
+" }}}
 
-nmap <F9> :QuickRun<cr> " for vim quickrun
+" snipmate {{{
 
-let g:session_autoload = 'no' " don't autoload vim-session saves
+" snipmate's tab doesn't work well with youcompleteme
+"let g:UltiSnipsExpandTrigger = '<c-l>'
+"let g:UltiSnipsJumpForwardTrigger = '<c-j>'
+"let g:UltiSnipsJumpBackwardTrigger = '<c-k>'
+"let g:UltiSnipsListSnippets = '<c-m>'
 
-set foldmethod=marker " use {{{ and }}} to specify a region, useful for large blocks of trivial functions
+" }}}
 
-let g:neocomplcache_enable_at_startup = 1 " enable neocomplcache completion
+" NERDTree {{{
 
-" powerline stuff
-set laststatus=2   " Always show the statusline
+nmap <f6> :NERDTreeToggle<cr>
 
-imap <c-c> <Esc> " trigger autoleave insert commands, normally ctrl+c doesn't do this
+" }}}
+
+" other {{{
+
+filetype plugin indent on
+
+set number
+
+syntax on
+
+set autoindent
+
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+
+autocmd FileType python setlocal expandtab
+autocmd FileType apexcode setlocal noexpandtab
+
+let mapleader = ','
+let maplocalloader = '\\'
+
+" }}}
+
+" Learning vimscript THE HARD way {{{
+
+" ch 4 ex 1 / ch 5 ex 1 / ch 6
+" convert the current word to uppercase in insert mode
+"inoremap <leader><c-u> <esc>maT veUl`ali
+
+" ch 4 ex 2 / ch 5 ex 1 / ch 6
+" convert the current word to uppercase in normal mode
+"nnoremap <leader><c-u> <esc>maT veUl`a
+
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
+"put double quotes around the current word
+nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
+" ch 9 ex 1
+"put single quotes around the current word
+nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
+
+"ch 9 ex 2
+" put double quotes around the current selection
+vnoremap <leader>" <esc>`>a"<esc>`<i"<esc>l
+" put single quotes around the current selection
+vnoremap <leader>' <esc>`>a'<esc>`<i'<esc>l
+
+" ch 9 ex 3
+"nnoremap H 0
+" ch 9 ex 4
+"nnoremap L $
+
+" RIP arrow keys
+noremap <left> <nop>
+noremap <right> <nop>
+noremap <up> <nop>
+noremap <down> <nop>
+
+" make jk in insert mode escape to normal mode
+inoremap jk <esc>
+inoremap <esc> <nop>
+
+" ch 15 useful paran operations
+" in next/last (
+onoremap in( :<c-u>normal! f(vi(<cr>
+onoremap il( :<c-u>normal! F)vi(<cr>
+
+" around next/last (
+onoremap an( :<c-u>normal! f(v%<cr>
+onoremap al( :<c-u>normal! F)v%<cr>
+
+" in next/last {
+onoremap in{ :<c-u>normal! f{vi{<cr>
+onoremap il{ :<c-u>normal! F}vi{<cr>
+
+" around next/last {
+onoremap an{ :<c-u>normal! f{v%<cr>
+onoremap al{ :<c-u>normal! F}v%<cr>
+
+" markdown stuff from ch 16
+augroup filetype_markdown
+	autocmd!
+
+	autocmd FileType markdown onoremap <buffer> ih :<c-u>execute "normal! ?^==\\+$\r:nohlsearch\rkvg_"<cr>
+	autocmd FileType markdown onoremap <buffer> ah :<c-u>execute "normal! ?^==\\+$\r:nohlsearch\rg_vk0"<cr>
+
+	autocmd FileType markdown onoremap <buffer> ish :<c-u>execute "normal! ?^--\\+$\r:nohlsearch\rkvg_"<cr>
+	autocmd FileType markdown onoremap <buffer> ash :<c-u>execute "normal! ?^--\\+$\r:nohlsearch\rg_vk0"<cr>
+augroup END
+
+" always display the statusline
+set laststatus=2
+
+"set statusline=%f         " Path to the file
+"set statusline+=\ -\      " Separator
+"set statusline+=FileType: " Label
+"set statusline+=%y        " Filetype of the file
+"set statusline+=%l    " Current line
+"set statusline+=/    " Separator
+"set statusline+=%L   " Total lines
+
+" vim file settings {{{
+augroup filetype_vim
+	autocmd!
+	autocmd FileType vim setlocal foldmethod=marker foldlevelstart=0
+augroup END
+" }}}
+
+" }}}
